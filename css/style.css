@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0px;
+    border: 0;
+    outline: none;
+}
+
+
+body{
+
+font-family:  "ariel" ,sans-serif;
+font-size: 13px;
+line-height: 1.5em;
+    color:#fff;
+    background : url(../img/bg.png);
+    
+}
+
+
+.clearfix{
+clear: both;
+}
+
+
+#container{
+    width:330px;
+    margin:60px auto;
+    background: #333;
+    border: #666 2px solid;
+    overflow: auto;
+    min-height: 40px;
+    
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px ;
+        
+}
+
+
+
+#audio-img{
+    
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    position: relative;             /*whats the use of positon over here???*/
+    
+}
+
+
+.cover{
+width: 100%;
+z-index: 1;}                        /*whats the use of z-index over here???*/
+            
+
+#audio-info{
+text-align: center;
+}
+
+
+
+
+#audio-info .artist{
+font-weight: bold;
+}
+
+
+input#volume{
+    
+    width:90%;
+    background: #ccc;
+    height: 1px;
+    
+    -webkit-appearance: none !important;
+    
+    margin-left: 2%;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+input#volume::-webkit-slider-thumb{
+    
+    
+    -webkit-appearance: none !important;
+    
+    background: url(..//img/knob.png) no-repeat;
+    
+    height: 12px;
+    width: 12px;
+}
+
+
+
+#audio-buttons{
+width: 90%;
+    display: block;
+    margin: 15px auto;
+    margin-left: 23px;
+    overflow: auto;
+}
+
+
+button#prev{
+
+    background: url(../img/prev.png) no-repeat;
+
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    float: left;
+    
+
+   cursor: pointer;
+}
+button#prev:active{
+    
+     margin: 14px 0px 0px 0px;
+
+}
+    
+
+
+button#play{
+
+    background: url(../img/play.png) no-repeat;
+
+    width: 70px;
+    height: 70px;
+   
+    float: left;
+    
+    
+    
+    cursor: pointer;
+    
+
+   
+}
+button#play:active{
+    
+   margin: 2px 0px 0px 0px;
+
+}
+    
+
+
+
+
+
+    
+button#pause{
+
+    background: url(../img/pause.png) no-repeat;
+
+    width: 70px;
+    height: 70px;
+  
+    float: left;
+    
+     cursor: pointer;
+   
+}
+button#pause:active{
+    
+   margin: 2px 0px 0px 0px;
+
+}
+    
+
+
+
+
+
+button#stop{
+
+    background: url(../img/stop.png) no-repeat;
+
+    width: 70px;
+    height: 70px;
+    
+    float: left;
+    
+
+   cursor: pointer;
+}
+button#stop:active{
+    
+   margin: 2px 0px 0px 0px;
+
+}
+    
+
+
+
+
+button#next{
+
+    background: url(../img/next.png) no-repeat;
+
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    float: right;
+    
+
+   cursor: pointer;
+}
+button#next:active{
+    
+   margin: 14px 0px 0px 0px;
+
+}
+    
+
+
+#playlist{
+    list-style:none;
+    padding: 10px;
+
+}
+
+
+#playlist li{
+margin: 5px;
+cursor: pointer}
+
+
+
+
+#playlist li.active{
+
+    font-weight: bold;
+    padding: 3px;
+    background: #666;
+}
+
+
+
+
+
+#tracker{
+    
+    position: relative;      /* whats the use of popsition over here??*/
+    width: 100%;
+}
+
+
+
+
+#progressbar{
+    
+    background: url(../img/progress_bg.png) no-repeat;
+    
+    width: 80%; 
+    height: 10px;
+    
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 20px;
+
+}
+
+#progress{
+    background: url(../img/progress.png) no-repeat;
+    
+    height: 10px;
+    display :inline-block;    /* Meaning  of inline block & use of this display??? */
+    
+    position: absolute;
+    top: 0px;
+    left: 8px ;
+    
+
+}
+
+#duration{
+
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    
+    padding: 4px 8px;
+    background: black;
+    
+    -webkit-border-radius : 5px ;
+    -moz-border-radius:  5px ;
+    border-radius:  5px  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

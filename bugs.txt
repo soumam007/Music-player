@@ -1,0 +1,13 @@
+#duration becoming invisible after clicking stop button....
+next.length==0 
+prev.length==0
+
+
+-------------------------
+covers
+clicking on the song in the playlist && active , add/remove class??
+seek bar not adjusting....
+volume starting at highest level
+seek diye duration thik kora by clicking
+
+------------------------------------XXXXXXX----------------------------------

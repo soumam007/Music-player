@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML5_MusicPlayer</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    
+    
+    <body >
+        
+        
+        <div id="container" class="fading" style="display:none;">  <!-Start of container div-->
+        
+           
+            
+            
+            <div id="audio-img">                  <!-Start of audio img div-->
+                 
+                 <img class="cover">
+                 
+             </div>                                 <!-End of audio img div-->
+            
+            
+            
+            
+            
+            
+            
+            <div id="audio-player">             <!-Start of audio player div-->
+            
+                <div id="audio-info">
+                    
+                    <span class="artist"></span> - <span class="title"></span>
+                </div>
+            
+                
+                
+                <input id="volume" type="range" min="0" max="100" value="0" >
+                <br>
+                
+                
+                
+                <div id="audio-buttons">
+                    <span>
+                <button id="prev"></button>
+                <button id="play"></button>
+                <button id="pause"></button>
+                <button id="stop"></button>
+                <button id="next"></button>
+                    </span>
+                </div>
+                   
+                <div class="clearfix">
+                </div>
+                
+             
+                <div id="tracker">
+                    <div id="progressbar">   <span id="progress"></span>    </div>
+                    <span id="duration"> </span>
+                </div>
+                
+                
+               
+         
+                
+        
+        
+                <div class="clearfix">
+                </div>
+        
+            
+            
+            <ul id="playlist">
+              <!--  <li song="" cover="" artist=""></li>   -->
+          <li song="Aadat.mp3" cover="cover1.jpg" artist="Linkin Park">Aadat.mp3</li>
+			<li song="Aankhon.mp3" cover="cover1.jpg" artist="Linkin Park">Aankhon.mp3</li>
+			<li song="Aashayein.mp3" cover="cover1.jpg" artist="Linkin Park">Aashayein.mp3</li>
+			<li song="Piya Aaye Na.mp3" cover="cover1.jpg" artist="Linkin Park">Piya Aaye Na.mp3</li>
+			<li song="Tere Sang Yaara.mp3" cover="cover1.jpg" artist="Linkin Park">Tere Sang Yaara.mp3</li>
+			<li song="Teri Baari.mp3" cover="cover1.jpg" artist="Linkin Park">Teri Baari.mp3</li>
+			<li song="Tu Hai.mp3" cover="cover1.jpg" artist="Linkin Park">Tu Hai.mp3</li>
+			<li song="Tukur Tukur.mp3" cover="cover1.jpg" artist="Linkin Park">Tukur Tukur.mp3</li>
+			<li song="Vande Mataram.mp3" cover="cover1.jpg" artist="Linkin Park">Vande Mataram.mp3</li>
+			<li song="Vande.mp3" cover="cover1.jpg" artist="Linkin Park">Vande.mp3</li>
+			<li song="Wavin.mp3" cover="cover1.jpg" artist="Linkin Park">Wavin.mp3</li>
+			<li song="Zinda.mp3" cover="cover1.jpg" artist="Linkin Park">Zinda.mp3</li>
+            </ul>    
+        
+        
+           </div>       <!-End of audio player div-->
+        
+        
+        
+        
+        </div>  <!-End of container div-->
+        
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    
+</html>
