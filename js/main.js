@@ -1,4 +1,6 @@
 
+$('.fading').fadeIn(5000);
+
 
 var audio;
 
